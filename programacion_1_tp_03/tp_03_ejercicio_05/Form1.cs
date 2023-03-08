@@ -54,8 +54,8 @@ namespace tp_03_ejercicio_05
         /// <summary>
         /// Iterates between min and max values looking for primes numbers
         /// </summary>
-        /// /// <param name="min">Minimum value</param>
-        /// /// <param name="max">Maximum value</param>
+        /// <param name="min">Minimum value</param>
+        /// <param name="max">Maximum value</param>
         /// <returns>An array containing all prime numbers between the limits provided</returns>
         public static int[] LookForPrimes(int min, int max)
         {
