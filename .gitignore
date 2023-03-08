@@ -1,0 +1,28 @@
+# Visual Studio files
+.vs/
+/bin/
+/obj/
+*.suo
+*.user
+*.sln.ide
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+
+# NuGet packages
+packages/
+
+# Resharper
+_ReSharper*/
+*.ReSharper.user
+
+# Other files to ignore
+Thumbs.db
+*.log
+*.bak
+*.cache
