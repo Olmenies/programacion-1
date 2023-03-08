@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic.Logging;
 using System.Diagnostics;
 
 namespace tp_03_ejercicio_05
@@ -14,8 +15,11 @@ namespace tp_03_ejercicio_05
         {
             ListBox.Items.Clear();
             bool isInputValid = ValidateInput();
-            int[] primesArray = LookForPrimes(int.Parse(TextBoxMin.Text), int.Parse(TextBoxMax.Text));
-            PrintToListBox(primesArray);
+            if (isInputValid)
+            {
+                int[] primesArray = LookForPrimes(int.Parse(TextBoxMin.Text), int.Parse(TextBoxMax.Text));
+                PrintToListBox(primesArray);
+            }
         }
 
         /********** Methods **********/
@@ -30,7 +34,11 @@ namespace tp_03_ejercicio_05
                 if (control is TextBox)
                 {
                     bool success = int.TryParse(control.Text, out _);
-                    if (!success) { return false; }
+                    if (!success)
+                    {
+                        MessageBox.Show("Input is not valid", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
                 }
             }
             return true;
