@@ -14,7 +14,7 @@ namespace tp_03_ejercicio_05
         {
             ListBox.Items.Clear();
             bool isInputValid = ValidateInput();
-            int[] primesArray = LookForPrimes(int.Parse(TextBoxMin.Text), int.Parse(TextBoxMax.Text)); // This should be divided on a method to generate an array of ints and a method to print the elements on the listbox
+            int[] primesArray = LookForPrimes(int.Parse(TextBoxMin.Text), int.Parse(TextBoxMax.Text));
             PrintToListBox(primesArray);
         }
 
