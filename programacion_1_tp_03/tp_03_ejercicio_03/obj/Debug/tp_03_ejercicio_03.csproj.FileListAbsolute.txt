@@ -1,0 +1,11 @@
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\bin\Debug\tp_03_ejercicio_03.exe.config
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\bin\Debug\tp_03_ejercicio_03.exe
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\bin\Debug\tp_03_ejercicio_03.pdb
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.csproj.AssemblyReference.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.csproj.SuggestedBindingRedirects.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.Form1.resources
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.Properties.Resources.resources
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.csproj.GenerateResource.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.csproj.CoreCompileInputs.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.exe
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_03\obj\Debug\tp_03_ejercicio_03.pdb

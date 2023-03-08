@@ -1,0 +1,17 @@
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\bin\Debug\net6.0-windows\tp_03_ejercicio_01.exe
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\bin\Debug\net6.0-windows\tp_03_ejercicio_01.deps.json
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\bin\Debug\net6.0-windows\tp_03_ejercicio_01.runtimeconfig.json
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\bin\Debug\net6.0-windows\tp_03_ejercicio_01.dll
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\bin\Debug\net6.0-windows\tp_03_ejercicio_01.pdb
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.csproj.AssemblyReference.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.Form1.resources
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.csproj.GenerateResource.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.GeneratedMSBuildEditorConfig.editorconfig
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.AssemblyInfoInputs.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.AssemblyInfo.cs
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.csproj.CoreCompileInputs.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.dll
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\refint\tp_03_ejercicio_01.dll
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.pdb
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\tp_03_ejercicio_01.genruntimeconfig.cache
+Q:\qSources\UAI\programacion1\programacion_1_tp_03\tp_03_ejercicio_01\obj\Debug\net6.0-windows\ref\tp_03_ejercicio_01.dll
