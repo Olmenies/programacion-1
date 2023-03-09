@@ -20,7 +20,6 @@ namespace tp_03_ejercicio_09
         /********** Events *********/
         private void ButtonCalculate_Click(object sender, EventArgs e)
         {
-
             int randomNumber = r.Next(1, 7);
             amountThrow++;
             UpdateAmount(randomNumber);
@@ -31,6 +30,9 @@ namespace tp_03_ejercicio_09
         }
 
         /********** Methods *********/
+        /// <summary>
+        /// Initialize a DataTable with the required columns, rows and the primary key
+        /// </summary>
         private void InitializeDataTable()
         {
             // Columns creation
@@ -47,22 +49,27 @@ namespace tp_03_ejercicio_09
                 row["Rate"] = 0;
                 dt.Rows.Add(row);
             }
-
+            
+            // Primary key definition
             DataColumn[] primaryKeyColumns = new DataColumn[1];
             primaryKeyColumns[0] = dt.Columns["Number"];
             dt.PrimaryKey = primaryKeyColumns;
         }
 
+        /// <summary>
+        /// Sets default values and properties of a DataGridView
+        /// </summary>
         private void InitializeDataGridView()
         {
             DataGridViewResults.DataSource = dt;
             DataGridViewResults.ReadOnly = true;
             DataGridViewResults.ColumnHeadersVisible = true;
             DataGridViewResults.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
-
         }
 
+        /// <summary>
+        /// Updates the "Rates" column in the DataTable
+        /// </summary>
         private void UpdateRates()
         {
             foreach (DataRow row in dt.Rows)
@@ -71,6 +78,10 @@ namespace tp_03_ejercicio_09
             }
         }
 
+        /// <summary>
+        /// Updates the column "Occurrences" of the random number generated
+        /// </summary>
+        /// <param name="randomNumber"></param>
         private void UpdateAmount(int randomNumber)
         {
             DataRow rowToUpdate = dt.Rows.Find(randomNumber);
