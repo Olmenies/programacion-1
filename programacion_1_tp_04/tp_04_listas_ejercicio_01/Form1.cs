@@ -26,9 +26,17 @@ namespace tp_04_listas_ejercicio_01
 
         private void ButtomRemoveSelectedPatient_Click(object sender, EventArgs e)
         {
-            int selectedRow = DataGridViewPatient.SelectedRows[0].Index;
-            myList.RemoveSelectedNode(selectedRow);
-            RefreshDataGridView();
+            
+            if (DataGridViewPatient.SelectedRows != null && DataGridViewPatient.SelectedRows.Count > 0)
+            {
+                int selectedRow = DataGridViewPatient.SelectedRows[0].Index;
+                myList.RemoveSelectedNode(selectedRow);
+                RefreshDataGridView();
+            }
+            else
+            {
+                MessageBox.Show("No ninguna línea seleccionada", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ButtonUpdatePatient_Click(object sender, EventArgs e)
@@ -47,10 +55,16 @@ namespace tp_04_listas_ejercicio_01
 
         private void ButtonAddAfter_Click(object sender, EventArgs e)
         {
-            int selectedRow = DataGridViewPatient.SelectedRows[0].Index;
-            MyNode newNode = new MyNode(TextBoxName.Text, TextBoxSurname.Text, TextBoxAddress.Text, TextBoxTel.Text);
-            myList.AddNodeAfter(selectedRow, newNode);
-            RefreshDataGridView();
+            if(DataGridViewPatient.SelectedRows != null && DataGridViewPatient.SelectedRows.Count > 0)
+            {
+                int selectedRow = DataGridViewPatient.SelectedRows[0].Index;
+                MyNode newNode = new MyNode(TextBoxName.Text, TextBoxSurname.Text, TextBoxAddress.Text, TextBoxTel.Text);
+                myList.AddNodeAfter(selectedRow, newNode);
+                RefreshDataGridView();
+            } else
+            {
+                MessageBox.Show("No ninguna línea seleccionada", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ButtonDummyLoad_Click(object sender, EventArgs e)
@@ -59,6 +73,9 @@ namespace tp_04_listas_ejercicio_01
         }
 
         /********** Methods **********/
+        /// <summary>
+        /// Set default values for the DataTable
+        /// </summary>
         private void InitializeDataTable()
         {
             dt.Columns.Add("Nombres", typeof(string));
@@ -67,6 +84,9 @@ namespace tp_04_listas_ejercicio_01
             dt.Columns.Add("Teléfono", typeof(string));
         }
 
+        /// <summary>
+        /// Sets the default values to the DataGridView
+        /// </summary>
         private void InitializeDataGridView()
         {
             DataGridViewPatient.DataSource = dt;
@@ -79,6 +99,9 @@ namespace tp_04_listas_ejercicio_01
 
         }
 
+        /// <summary>
+        /// Loads dummy data to the DataTable
+        /// </summary>
         private void DummyData()
         {
             for (int i = 0; i <= 10; i++)
@@ -89,6 +112,9 @@ namespace tp_04_listas_ejercicio_01
             RefreshDataGridView();
         }
 
+        /// <summary>
+        /// Iterates through the list populating the DataTable
+        /// </summary>
         private void RefreshDataGridView()
         {
             dt.Clear();
